@@ -1,0 +1,49 @@
+.header {
+  background: $hader-bg;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  &-logo {
+    i {
+      width: 32px;
+      height: 32px;
+      color: white;
+      margin-right: 16px;
+    }
+  }
+  &-search {
+    position: relative;
+    input {
+      width: 300px;
+      height: 25px;
+      padding: 7px;
+      font-size: 12px;
+      color: white;
+      border: none;
+      margin-right: 16px;
+      border-radius: 3px;
+      background-color: #404447;
+    }
+    i {
+      position: absolute;
+      top: 5px;
+      right: 20px;
+      color: white;
+    }
+  }
+  &-links {
+    a {
+      color: white;
+      margin-right: 16px;
+      font-size: 14px;
+      font-family: $font;
+    }
+  }
+  &-rig {
+    margin-left: auto;
+  }
+  i{
+    color: #ccc;
+    margin-left: 16px; 
+  }
+}
